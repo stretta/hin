@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -37,6 +37,20 @@
 		"style" : "",
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
+				"box" : 				{
+					"id" : "obj-380",
+					"items" : [ "Gb", ",", "Db", ",", "Ab", ",", "Eb", ",", "Bb", ",", "F", ",", "C", ",", "G", ",", "D", ",", "A", ",", "E", ",", "B", ",", "F#", ",", "C#", ",", "G#" ],
+					"maxclass" : "umenu",
+					"numinlets" : 1,
+					"numoutlets" : 3,
+					"outlettype" : [ "int", "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 393.0, 88.0, 55.0, 22.0 ],
+					"style" : ""
+				}
+
+			}
+, 			{
 				"box" : 				{
 					"id" : "obj-17",
 					"maxclass" : "comment",
@@ -195,20 +209,6 @@
 					"patching_rect" : [ 174.833496, 165.666748, 160.0, 22.0 ],
 					"style" : "",
 					"text" : "combine C :: 13 @triggers 2"
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"id" : "obj-380",
-					"items" : [ "Db", ",", "Ab", ",", "Eb", ",", "Bb", ",", "F", ",", "C", ",", "G", ",", "D", ",", "A", ",", "E", ",", "B" ],
-					"maxclass" : "umenu",
-					"numinlets" : 1,
-					"numoutlets" : 3,
-					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 354.833496, 84.0, 55.0, 22.0 ],
-					"style" : ""
 				}
 
 			}

@@ -1,2 +1,0 @@
-# hin
-Harmonic Interchange Notation
