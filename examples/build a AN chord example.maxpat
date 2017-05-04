@@ -4,8 +4,8 @@
 		"appversion" : 		{
 			"major" : 7,
 			"minor" : 3,
-			"revision" : 2,
-			"architecture" : "x64",
+			"revision" : 3,
+			"architecture" : "x86",
 			"modernui" : 1
 		}
 ,
@@ -61,8 +61,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -452,8 +452,8 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
@@ -899,12 +899,12 @@
 						"appversion" : 						{
 							"major" : 7,
 							"minor" : 3,
-							"revision" : 2,
-							"architecture" : "x64",
+							"revision" : 3,
+							"architecture" : "x86",
 							"modernui" : 1
 						}
 ,
-						"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+						"rect" : [ 59.0, 104.0, 640.0, 480.0 ],
 						"bglocked" : 0,
 						"openinpresentation" : 0,
 						"default_fontsize" : 12.0,
@@ -933,19 +933,6 @@
 						"subpatcher_template" : "",
 						"boxes" : [ 							{
 								"box" : 								{
-									"id" : "obj-1",
-									"maxclass" : "newobj",
-									"numinlets" : 1,
-									"numoutlets" : 1,
-									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 50.0, 104.0, 60.0, 22.0 ],
-									"style" : "",
-									"text" : "loadbang"
-								}
-
-							}
-, 							{
-								"box" : 								{
 									"fontname" : "Arial",
 									"fontsize" : 13.0,
 									"id" : "obj-60",
@@ -954,7 +941,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 50.0, 147.0, 158.666748, 38.0 ],
+									"patching_rect" : [ 125.666748, 182.0, 158.666748, 38.0 ],
 									"style" : "",
 									"text" : "import bp.chord.dictionary.json"
 								}
@@ -967,7 +954,7 @@
 									"maxclass" : "comment",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 327.500244, 100.0, 233.0, 47.0 ],
+									"patching_rect" : [ 127.500244, 63.0, 233.0, 47.0 ],
 									"style" : "",
 									"text" : "the chord dictionary is a living, expanding document, so we're going to ask the dictonary what chord types are available "
 								}
@@ -980,7 +967,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 246.666748, 100.0, 60.0, 22.0 ],
+									"patching_rect" : [ 46.666748, 63.0, 60.0, 22.0 ],
 									"style" : "",
 									"text" : "loadbang"
 								}
@@ -993,7 +980,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 2,
 									"outlettype" : [ "", "" ],
-									"patching_rect" : [ 323.333496, 293.0, 74.0, 22.0 ],
+									"patching_rect" : [ 123.333496, 315.0, 74.0, 22.0 ],
 									"style" : "",
 									"text" : "route empty"
 								}
@@ -1006,7 +993,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "bang" ],
-									"patching_rect" : [ 246.666748, 136.0, 24.0, 24.0 ],
+									"patching_rect" : [ 46.666748, 99.0, 24.0, 24.0 ],
 									"style" : ""
 								}
 
@@ -1018,7 +1005,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 323.333496, 259.0, 27.0, 22.0 ],
+									"patching_rect" : [ 123.333496, 281.0, 27.0, 22.0 ],
 									"style" : "",
 									"text" : "iter"
 								}
@@ -1031,7 +1018,7 @@
 									"numinlets" : 1,
 									"numoutlets" : 1,
 									"outlettype" : [ "" ],
-									"patching_rect" : [ 378.333496, 334.0, 98.0, 22.0 ],
+									"patching_rect" : [ 178.333496, 356.0, 98.0, 22.0 ],
 									"style" : "",
 									"text" : "prepend append"
 								}
@@ -1042,11 +1029,11 @@
 									"id" : "obj-256",
 									"maxclass" : "newobj",
 									"numinlets" : 1,
-									"numoutlets" : 2,
-									"outlettype" : [ "", "clear" ],
-									"patching_rect" : [ 246.666748, 179.0, 305.0, 22.0 ],
+									"numoutlets" : 3,
+									"outlettype" : [ "", "clear", "bang" ],
+									"patching_rect" : [ 46.666748, 142.0, 98.0, 22.0 ],
 									"style" : "",
-									"text" : "t getkeys clear"
+									"text" : "t getkeys clear b"
 								}
 
 							}
@@ -1057,7 +1044,7 @@
 									"numinlets" : 2,
 									"numoutlets" : 4,
 									"outlettype" : [ "dictionary", "", "", "" ],
-									"patching_rect" : [ 246.666748, 220.0, 134.0, 22.0 ],
+									"patching_rect" : [ 46.666748, 242.0, 134.0, 22.0 ],
 									"saved_object_attributes" : 									{
 										"embed" : 0,
 										"parameter_enable" : 0
@@ -1076,22 +1063,13 @@
 									"maxclass" : "outlet",
 									"numinlets" : 1,
 									"numoutlets" : 0,
-									"patching_rect" : [ 306.500122, 416.0, 30.0, 30.0 ],
+									"patching_rect" : [ 89.500122, 423.0, 30.0, 30.0 ],
 									"style" : ""
 								}
 
 							}
  ],
 						"lines" : [ 							{
-								"patchline" : 								{
-									"destination" : [ "obj-60", 0 ],
-									"disabled" : 0,
-									"hidden" : 0,
-									"source" : [ "obj-1", 0 ]
-								}
-
-							}
-, 							{
 								"patchline" : 								{
 									"destination" : [ "obj-264", 0 ],
 									"disabled" : 0,
@@ -1115,6 +1093,15 @@
 									"disabled" : 0,
 									"hidden" : 0,
 									"source" : [ "obj-256", 0 ]
+								}
+
+							}
+, 							{
+								"patchline" : 								{
+									"destination" : [ "obj-60", 0 ],
+									"disabled" : 0,
+									"hidden" : 0,
+									"source" : [ "obj-256", 2 ]
 								}
 
 							}
@@ -1370,19 +1357,19 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "bp.rtoa.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Harmonic Interchange Notation/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/hin/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.atom.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Harmonic Interchange Notation/patchers",
+				"bootpath" : "~/Documents/Max 7/Packages/hin/patchers",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "bp.atom.txt",
-				"bootpath" : "~/Documents/Max 7/Projects/Harmonic Interchange Notation/data",
+				"bootpath" : "~/Documents/Max 7/Packages/hin/misc",
 				"type" : "TEXT",
 				"implicit" : 1
 			}
