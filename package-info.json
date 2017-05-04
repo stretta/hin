@@ -5,7 +5,7 @@
   "displayname": "",
   "extends": "",
   "extensible": 0,
-  "homepatcher": "hin.overview.maxpat",
+  "homepatcher": "hin_launch.maxpat",
   "max_version_max": "none",
   "max_version_min": "7.1",
   "name": "hin",
