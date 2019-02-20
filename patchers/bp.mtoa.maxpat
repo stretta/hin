@@ -4,7 +4,7 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 0,
-			"revision" : 1,
+			"revision" : 3,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -174,7 +174,7 @@
 					"maxclass" : "inlet",
 					"numinlets" : 0,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
+					"outlettype" : [ "" ],
 					"patching_rect" : [ 198.999877999999995, 94.0, 30.0, 30.0 ]
 				}
 
@@ -334,21 +334,8 @@
 					"numinlets" : 1,
 					"numoutlets" : 3,
 					"outlettype" : [ "int", "", "" ],
-					"parameter_enable" : 1,
+					"parameter_enable" : 0,
 					"patching_rect" : [ 506.499878000000024, 94.0, 100.0, 20.0 ],
-					"saved_attribute_attributes" : 					{
-						"valueof" : 						{
-							"parameter_mmax" : 16.0,
-							"parameter_initial" : [ 0 ],
-							"parameter_shortname" : "umenu[6]",
-							"parameter_type" : 3,
-							"parameter_longname" : "umenu[1]",
-							"parameter_initial_enable" : 1,
-							"parameter_invisible" : 1
-						}
-
-					}
-,
 					"varname" : "umenu"
 				}
 
