@@ -63,8 +63,8 @@
   },
   "aug": {
     "symbol": "+",
-    "class": "triad",
-    "type": "major",
+    "class": "major",
+    "type": "triad",
     "TT": 273,
     "aka": "",
     "voicings-rn": {
@@ -504,7 +504,7 @@
   },
   "dom7": {
     "symbol": 7,
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1169,
     "aka": "",
@@ -567,7 +567,7 @@
   },
   "dom9": {
     "symbol": 9,
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1173,
     "aka": "",
@@ -631,7 +631,7 @@
   },
   "dom7b5": {
     "symbol": "7b5",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1105,
     "aka": "",
@@ -662,7 +662,7 @@
   },
   "dom7(#11)": {
     "symbol": "7(#11)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1105,
     "aka": "",
@@ -693,7 +693,7 @@
   },
   "dom7(#9)": {
     "symbol": "7(#9)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1177,
     "aka": "",
@@ -725,7 +725,7 @@
   },
   "dom7(#5)": {
     "symbol": "7(#5)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1297,
     "aka": "",
@@ -756,7 +756,7 @@
   },
   "dom7(b5b13)": {
     "symbol": "7(b5b13)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1361,
     "aka": "",
@@ -787,7 +787,7 @@
   },
   "dom7b5(b9)": {
     "symbol": "7b5(b9)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1171,
     "aka": "",
@@ -818,7 +818,7 @@
   },
   "dom7b5(#9)": {
     "symbol": "7b5(#9)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1177,
     "aka": "",
@@ -849,7 +849,7 @@
   },
   "dom7#5(b9)": {
     "symbol": "7#5(b9)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1299,
     "aka": "",
@@ -880,7 +880,7 @@
   },
   "dom7#5(#9)": {
     "symbol": "7#5(#9)",
-    "class": "major",
+    "class": "",
     "type": "dominant",
     "TT": 1305,
     "aka": "",
