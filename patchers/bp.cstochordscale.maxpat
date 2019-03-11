@@ -39,18 +39,6 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-388",
-					"maxclass" : "message",
-					"numinlets" : 2,
-					"numoutlets" : 1,
-					"outlettype" : [ "" ],
-					"patching_rect" : [ 64.0, 73.0, 35.0, 20.0 ],
-					"text" : "maj7"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-324",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -69,7 +57,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 33.0, 289.0, 118.0, 20.0 ],
-					"text" : "read bp.inferance.txt"
+					"text" : "read bp.inference.txt"
 				}
 
 			}
@@ -258,13 +246,6 @@
 				"patchline" : 				{
 					"destination" : [ "obj-451", 0 ],
 					"source" : [ "obj-326", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-398", 0 ],
-					"source" : [ "obj-388", 0 ]
 				}
 
 			}
