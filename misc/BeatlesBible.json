@@ -1,0 +1,427 @@
+{
+  "A Day in the Life": {
+    "mesostructure": "A A A B C D A B",
+    "root": "G",
+    "sections": {
+      "A": {
+        "0": "Gmaj",
+        "960": "Bmin",
+        "1920": "Emin",
+        "3840": "Cmaj",
+        "4800": "Emin",
+        "5760": "Amin",
+        "6720": "Cmaj7",
+        "7680": "Gmaj",
+        "8640": "Bmin",
+        "9600": "Emin",
+        "11520": "Cmaj",
+        "12480": "Fmaj",
+        "13440": "Emin",
+        "15360": "Cmaj",
+        "duration": 17280,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Cmaj",
+        "960": "Bmin",
+        "1920": "Gmaj",
+        "2880": "Emin",
+        "3840": "Emaj",
+        "duration": 7680,
+        "timesig": "4/4"
+      },
+      "C": {
+        "0": "Emaj",
+        "2880": "Dmaj",
+        "4800": "Emaj",
+        "5760": "F#min",
+        "6720": "Emaj",
+        "7680": "F#min",
+        "9600": "Emaj",
+        "11520": "Dmaj",
+        "13440": "Emaj",
+        "14400": "F#min",
+        "14880": "Bdom7",
+        "15360": "Emaj",
+        "16320": "F#min",
+        "duration": 17280,
+        "timesig": "4/4"
+      },
+      "D": {
+        "0": "Cmaj",
+        "1920": "Gmaj",
+        "3840": "Dmaj",
+        "5760": "Amaj",
+        "7680": "Emaj",
+        "9600": "Cmaj",
+        "11520": "Gmaj",
+        "13440": "Dmaj",
+        "15360": "Amaj",
+        "duration": 19200,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Blackbird": {
+    "mesostructure": "A A B A B A",
+    "root": "G",
+    "sections": {
+      "A": {
+        "0": "Gmaj",
+        "480": "Amin7",
+        "960": "Gmaj",
+        "3840": "Cmaj",
+        "4320": "Adom7",
+        "4800": "Ddom7",
+        "5280": "Bdom7",
+        "5760": "Emin",
+        "6720": "Cmin",
+        "7680": "Gmaj",
+        "8160": "Adom7",
+        "8640": "Amin7",
+        "9600": "Cmin",
+        "10560": "Gmaj",
+        "11520": "Adom7",
+        "12480": "Amin7",
+        "12960": "Ddom7",
+        "duration": 13440,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Fmaj",
+        "480": "Cmaj",
+        "960": "Dmin",
+        "1440": "Cmaj",
+        "1920": "Bbmaj",
+        "2880": "Cmaj",
+        "3840": "Fmaj",
+        "4320": "Cmaj",
+        "4800": "Dmin",
+        "5280": "Cmaj",
+        "5760": "Bbmaj",
+        "6720": "Adom7",
+        "8640": "Ddom7",
+        "duration": 9600,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Come Together": {
+    "mesostructure": "A A B A B A B A",
+    "root": "D",
+    "sections": {
+      "A": {
+        "0": "Dmin7",
+        "15360": "Amaj",
+        "19200": "Gdom7",
+        "duration": 23040,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Bmin",
+        "1920": "Gmaj",
+        "duration": 3840,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Here Comes the Sun": {
+    "mesostructure": "A B A B A C C C C A B B",
+    "root": "A",
+    "sections": {
+      "A": {
+        "0": "Amaj",
+        "3840": "Dmaj",
+        "5760": "Edom7",
+        "7680": "Amaj",
+        "11520": "Dmaj",
+        "13440": "Edom7",
+        "duration": 15360,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Amaj",
+        "3840": "Dmaj7",
+        "5760": "Bdom7",
+        "7680": "Amaj",
+        "9600": "Dmaj",
+        "10320": "Amaj",
+        "11040": "Bmin7",
+        "11760": "Amaj",
+        "12480": "Edom7",
+        "duration": 13440,
+        "timesig": "4/4"
+      },
+      "C": {
+        "0": "Cmaj",
+        "720": "Gmaj",
+        "1440": "Dmaj",
+        "2880": "Amaj",
+        "4800": "Edom7",
+        "duration": 5760,
+        "timesig": "6/4"
+      }
+    }
+  },
+  "Hey Jude": {
+    "mesostructure": "A A B A B A C C C C",
+    "root": "F",
+    "sections": {
+      "A": {
+        "0": "Fmaj",
+        "1920": "Cmaj",
+        "3840": "Cdom7",
+        "4320": "Cdom7sus4",
+        "5280": "Cdom7",
+        "5760": "Fmaj",
+        "7680": "Bbmaj",
+        "9600": "Fmaj",
+        "11520": "Cdom7",
+        "13440": "Fmaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Fdom7",
+        "1920": "Bbmaj",
+        "3840": "Gmin7",
+        "5760": "Cdom7",
+        "7680": "Fmaj",
+        "9600": "Fdom7",
+        "11520": "Bbmaj",
+        "13440": "Gmin7",
+        "15360": "Cdom7",
+        "17280": "Fmaj",
+        "19200": "Fdom7",
+        "20160": "Cdom7",
+        "duration": 23040,
+        "timesig": "4/4"
+      },
+      "C": {
+        "0": "Fmaj",
+        "1920": "Ebmaj",
+        "3840": "Bbmaj",
+        "5760": "Fmaj",
+        "duration": 7680,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "In My Life": {
+    "mesostructure": "A B A B B C",
+    "root": "A",
+    "sections": {
+      "A": {
+        "0": "Amaj",
+        "1920": "Edom7",
+        "3840": "Amaj",
+        "5760": "F#min",
+        "6720": "Adom7",
+        "7680": "Dmaj",
+        "8640": "Dmin",
+        "9600": "Amaj",
+        "13440": "F#min",
+        "14400": "Adom7",
+        "15360": "Dmaj",
+        "16320": "Dmin",
+        "17280": "Amaj",
+        "duration": 19200,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "F#min",
+        "1920": "Dmaj",
+        "3840": "Gmaj",
+        "5760": "Amaj",
+        "7680": "F#min",
+        "9600": "Bdom7",
+        "11520": "Dmin",
+        "13440": "Amaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      },
+      "C": {
+        "0": "Amaj",
+        "1920": "Edom7",
+        "3840": "Dmin",
+        "6720": "Amaj",
+        "8640": "Edom7",
+        "10560": "Amaj7",
+        "duration": 12480,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Let it Be": {
+    "mesostructure": "A B A B B A B A B B",
+    "root": "C",
+    "sections": {
+      "A": {
+        "0": "Cmaj",
+        "960": "Gmaj",
+        "1920": "Amin",
+        "2640": "Gmaj",
+        "2880": "Fmaj",
+        "3840": "Cmaj",
+        "4800": "Gmaj",
+        "5760": "Fmaj",
+        "6240": "Cmaj",
+        "6480": "Dmin7",
+        "6720": "Cmaj",
+        "7680": "Cmaj",
+        "8640": "Gmaj",
+        "9600": "Amin",
+        "10320": "Gmaj",
+        "10560": "Fmaj",
+        "11520": "Cmaj",
+        "12480": "Gmaj",
+        "13440": "Fmaj",
+        "13920": "Cmaj",
+        "14160": "Dmin7",
+        "14400": "Cmaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Amin",
+        "960": "Gmaj",
+        "1920": "Fmaj",
+        "2880": "Cmaj",
+        "4800": "Gmaj",
+        "5760": "Fmaj",
+        "6240": "Cmaj",
+        "6480": "Dmin7",
+        "6720": "Cmaj",
+        "duration": 7680,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Something": {
+    "mesostructure": "A B A B C A B A B",
+    "root": "C",
+    "sections": {
+      "A": {
+        "0": "Cmaj",
+        "1920": "Cmaj7",
+        "3840": "Cdom7",
+        "5760": "Fmaj",
+        "7680": "Ddom7",
+        "9600": "Gmaj",
+        "10080": "Amin7",
+        "10560": "Gdom7",
+        "duration": 11520,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Amin",
+        "960": "Eaug",
+        "1920": "Amin",
+        "2880": "Ddom7",
+        "3840": "Fmaj",
+        "4800": "Ebmaj",
+        "5280": "Gdom7",
+        "duration": 5760,
+        "timesig": "4/4"
+      },
+      "C": {
+        "0": "Amaj",
+        "960": "C#min",
+        "1920": "F#min",
+        "3840": "Dmaj",
+        "4800": "Gmaj",
+        "5760": "Amaj",
+        "6720": "C#min",
+        "7680": "F#min",
+        "9600": "Dmaj",
+        "10560": "Gmaj",
+        "11250": "Cmaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Strawberry Fields Forever": {
+    "mesostructure": "B A B A B A B",
+    "root": "A",
+    "sections": {
+      "A": {
+        "0": "Emaj",
+        "960": "Emaj7",
+        "1920": "Edom7",
+        "2880": "Bmin7",
+        "3360": "C#dom7",
+        "3840": "F#min",
+        "4800": "F#min7",
+        "5760": "Dmaj7",
+        "7680": "Dmaj",
+        "8640": "Edom7",
+        "9600": "Amaj",
+        "10560": "F#min",
+        "11520": "Dmaj",
+        "12480": "Emaj",
+        "13440": "Dmaj",
+        "14400": "Amaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Amaj",
+        "3840": "Emin7",
+        "7680": "F#dom7",
+        "11520": "Dmaj",
+        "12240": "Emaj",
+        "12480": "F#maj",
+        "13920": "Dmaj7",
+        "15840": "Amaj",
+        "duration": 17280,
+        "timesig": "4/4"
+      }
+    }
+  },
+  "Yesterday": {
+    "mesostructure": "A A B A B A",
+    "root": "F",
+    "sections": {
+      "A": {
+        "0": "Fmaj",
+        "1920": "Emin",
+        "2880": "Adom7",
+        "3840": "Dmin",
+        "5760": "Bbmaj",
+        "6720": "Cmaj",
+        "7680": "Bbmaj",
+        "8160": "Fmaj",
+        "9120": "Cmaj",
+        "9600": "Dmin7",
+        "10560": "Gdom7",
+        "11520": "Bbmaj",
+        "12000": "Fmaj",
+        "duration": 13440,
+        "timesig": "4/4"
+      },
+      "B": {
+        "0": "Gmaj",
+        "960": "Adom7",
+        "1920": "Dmin",
+        "2400": "Cmaj",
+        "2880": "Bbmaj7",
+        "3360": "Dmin",
+        "3840": "Gmin",
+        "4800": "Cdom7",
+        "5760": "Fmaj",
+        "7680": "Gmaj",
+        "8640": "Adom7",
+        "9600": "Dmin",
+        "10080": "Cmaj",
+        "10560": "Bbmaj7",
+        "11040": "Dmin",
+        "11520": "Gmin",
+        "12480": "Cmaj",
+        "13440": "Fmaj",
+        "duration": 15360,
+        "timesig": "4/4"
+      }
+    }
+  }
+}
