@@ -39,6 +39,39 @@
 		"subpatcher_template" : "",
 		"boxes" : [ 			{
 				"box" : 				{
+					"id" : "obj-402",
+					"maxclass" : "live.line",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4941.83349609375, 293.1666259765625, 563.0, 7.0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"fontsize" : 18.0,
+					"id" : "obj-444",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4941.83349609375, 293.1666259765625, 439.0, 24.0 ],
+					"text" : "absolute chord symbol to relative chord symbol"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-393",
+					"maxclass" : "newobj",
+					"numinlets" : 0,
+					"numoutlets" : 0,
+					"patching_rect" : [ 4954.0, 390.0, 70.0, 20.0 ],
+					"text" : "bp.acstorcs"
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-522",
 					"maxclass" : "message",
 					"numinlets" : 2,
